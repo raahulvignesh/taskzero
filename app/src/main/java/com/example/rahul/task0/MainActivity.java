@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     public void onButtonClick(View v) {
         TextView t1 = (TextView)findViewById(R.id.textView2);
         b+=1;
-        t1.setText(Integer.toString(a));
+        t1.setText(Integer.toString(b));
     }
 
 }
